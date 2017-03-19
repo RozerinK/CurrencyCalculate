@@ -1,17 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_first_page"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context="androidedu.kodluyoruz.currencycalculate.FirstPage">
 
-    <TextView
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/activity_first_page_dovız"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_first_page_doviztutarı"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/doviz_tutarı" />
+
+        <EditText
+            android:id="@+id/activity_first_page_dovizSigned"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="@string/hint_zero"
+            android:inputType="numberSigned"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/activity_first_page_comma"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:text="@string/comma"
+            android:textAlignment="textEnd" />
+
+        <EditText
+            android:id="@+id/activity_first_page__dovizDecimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:hint="@string/double_zero"
+            android:inputType="numberDecimal"
+            android:textAlignment="textEnd" />
+
+
+        <TextView
+
+            android:id="@+id/activity_first_page__dovizIsmi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/doviz_ismi" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/activity_first_page_passNext"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_first_page_tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_first_page_tltutarı"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/tl_tutarı" />
+
+        <EditText
+            android:id="@+id/activity_first_page_tlSigned"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="@string/hint_zero"
+            android:inputType="numberSigned"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/activity_first_page_comma1"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:text="@string/comma"
+            android:textAlignment="textEnd" />
+
+        <EditText
+            android:id="@+id/activity_first_page__tlDecimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:hint="@string/double_zero"
+            android:inputType="numberDecimal"
+            android:textAlignment="textEnd" />
+
+
+        <TextView
+
+            android:id="@+id/activity_first_page__TL"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/tl_ismi" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_first_page_buttonchangecurrency"
+        android:text="@string/change_currency"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

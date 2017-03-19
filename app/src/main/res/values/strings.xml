@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CurrencyCalculate</string>
+    <string name="doviz_tutarı">Döviz Tutarı</string>
+    <string name="hint_zero">0</string>
+    <string name="doviz_ismi">USD</string>
+    <string name="double_zero">00</string>
+    <string name="comma">,</string>
+    <string name="tl_tutarı">TL Tutarı</string>
+    <string name="tl_ismi">TL</string>
+    <string name="change_currency">Döviz Tipi Değiştir</string>
 </resources>
