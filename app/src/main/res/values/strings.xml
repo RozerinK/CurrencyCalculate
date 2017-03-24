@@ -8,6 +8,12 @@
     <string name="tl_tutarı">TL Tutarı</string>
     <string name="tl_ismi">TL</string>
     <string name="change_currency">Döviz Tipi Değiştir</string>
+    <string name="textview_alis">Alış</string>
+    <string name="textview_satis">Satış</string>
+    <string name="textview_alisdegeri">3,580</string>
+    <string name="textview_satisdegeri">3,680</string>
+    <string name="al">Alış</string>
+    <string name="sat">Satış</string>
     <string-array name="items">
         <item>Alış</item>
         <item>Satış</item>

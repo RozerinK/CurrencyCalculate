@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listviem_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/listviem_item_dovizismi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <LinearLayout
+        android:id="@+id/listview_item_firstcolumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listview_item_textview_alis"
+            android:layout_width="@dimen/textview_item"
+            android:layout_height="wrap_content"
+            android:text="@string/al" />
+
+        <TextView
+            android:id="@+id/listview_item_textview_satis"
+            android:layout_width="@dimen/textview_item"
+            android:layout_height="wrap_content"
+            android:text="@string/sat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listview_item_secondcolumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listview_item_textview_alisdegeri"
+            android:layout_width="@dimen/textview_item"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/listview_item_textview_satisdegeri"
+            android:layout_width="@dimen/textview_item"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

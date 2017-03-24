@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:entries="@array/items" />
-    />
+
     <LinearLayout
         android:id="@+id/activity_first_page_layout_tl"
         android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:hint="@string/double_zero"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned"
             android:textAlignment="textEnd" />
 
 
@@ -102,10 +102,7 @@
             android:layout_height="50dp"
             android:text="@string/doviz_ismi" />
 
-        <android.support.v7.widget.AppCompatImageButton
-            android:id="@+id/activity_first_page_passNext"
-            android:layout_width="20dp"
-            android:layout_height="20dp" />
+
     </LinearLayout>
 
 
