@@ -14,7 +14,7 @@
     <string name="textview_satisdegeri">3,680</string>
     <string name="al">Alış</string>
     <string name="sat">Satış</string>
-    <string-array name="items">
+    <string-array name="spinner_items">
         <item>Alış</item>
         <item>Satış</item>
     </string-array>
