@@ -50,7 +50,7 @@ public class Adapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View satirView;
 
-        satirView = mInflater.inflate(R.id.listview_item, null);
+        satirView = mInflater.inflate(R.layout.listview_item, null);
         TextView doviz_ismi =
                 (TextView) satirView.findViewById(R.id.listviem_item_dovizismi);
 

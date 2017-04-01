@@ -7,11 +7,11 @@ package androidedu.kodluyoruz.currencycalculate;
 
 public class Currency {
     private String doviz_ismi;
-    private int alis;
-    private int satis;
+    private String alis;
+    private String satis;
     private boolean doviz_tipiMi;
 
-    public Currency(String doviz_ismi, int alis, int satis) {
+    public Currency(String doviz_ismi, String alis, String satis) {
         super();
         this.doviz_ismi = doviz_ismi;
         this.alis = alis;
@@ -32,19 +32,19 @@ public class Currency {
         this.doviz_ismi = doviz_ismi;
     }
 
-    public int getAlis() {
+    public String getAlis() {
         return alis;
     }
 
-    public void setAlis(int alis) {
+    public void setAlis(String alis) {
         this.alis = alis;
     }
 
-    public int getSatis() {
+    public String getSatis() {
         return satis;
     }
 
-    public void setSatis(int alis) {
+    public void setSatis(String alis) {
         this.satis = satis;
     }
 
